@@ -11,3 +11,5 @@ X_new = loaded_vectorizer.transform(new_message)
 prediction = loaded_model.predict(X_new)
 
 print("Predict:", "spam" if prediction[0] == 1 else "ham")
+
+I'm really lazy to make docs
